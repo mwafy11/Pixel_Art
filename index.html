@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Art Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="Bio">
+        Click Here For My Linked-In
+        <a href="https://www.linkedin.com/in/mustafa-mwafy-504098131/" target="_blank" style="text-decoration: none">
+            <em>Here</em>
+        </a>
+    </div>
+    <h1>Pixel Art Maker</h1>
+
+    <h2 class="Picker">Choose Grid Size</h2>
+    <form class="Picker">
+        Grid Height <input type="number" id="HeightID" min="1" value="1">
+        Grid Width <input type="number" id="WidthID" min="1" value="1">
+
+        <input type="button" value="Submit" onclick="makeGrid()">
+    </form>
+    <p>
+        <br>
+        <strong class="Picker">Pick a Color</strong>
+    </p>
+    <p>
+        <input type="color" id="ColorID"/>
+    </p>
+    <h4 class="Picker">Design Canvas</h4>
+    <table id="TableID">
+
+    </table>
+    <script src="design.js"></script>
+</body>
+</html>
